@@ -1,0 +1,181 @@
+.main-bar{
+    width: calc( 100% - 300px - 24px );
+    float: left;
+    margin: 25px 0px;
+    padding: 0;
+}
+
+.main-bar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.main-bar-header h1{
+    padding: 0;
+    font-weight: 400;
+}
+
+.main-bar-header .ask-btn{
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #009dff;
+    color: white;
+    border: none;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.main-bar-header .ask-btn:hover{
+    background-color: #0086d8;
+}
+
+.display-question-container{
+    min-height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    --dark: hsl(280, 9%, 20%);
+    background-color: var(--dark);
+    	
+    border-bottom: solid 1px #edeff0;
+}
+
+.display-question-container .display-votes-ans{
+    padding: 20px;
+}
+.display-question-container .display-votes-ans p{
+    margin: 0%;
+    text-align: center;
+}
+
+.display-question-details{
+    flex-grow: 1;
+    padding: 0px 20px;
+}
+
+.question-title-link{
+    text-decoration: none;
+    color: #037ecb;
+    transition: 0.3s;
+}
+
+.question-title-link:hover{
+    color: #009dff;
+}
+
+.display-question-details p{
+    padding: 4px;
+    margin: 0%;
+}
+
+.display-tags-time .display-tags{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.display-tags-time{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.display-tags-time .display-tags p{
+    margin: 2px;
+    padding: 4px;
+    font-size: 13px;
+    background-color: #edeff0;
+    color: #39739d;
+}
+.display-tags-time .display-time {
+    font-size: 13px;
+}
+
+
+/* --light-blue-colour: hsl(209, 100%, 91%); */
+
+.Doubts-header
+{
+    --light-blue-colour: hsl(209, 100%, 91%);
+    color: var(--light-blue-colour);
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.Doubts-header h1{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+}
+.doubt-count 
+{
+    --light-blue-colour: hsl(209, 100%, 91%);
+    color: var(--light-blue-colour)
+
+}
+
+.Doubt-Container{
+    --dark: hsl(280, 9%, 20%);
+    background-color: var(--dark);
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.Doubt-content{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.Doubt-Question{
+    font-size: 2vh;
+    text-align: left;
+}
+
+.Doubt-tags{
+    font-size: small;
+}
+
+.Doubt-extra-info{
+    display: flex;
+    flex-direction: row;
+    color: green;
+    justify-content: space-evenly;
+    font-size: small;
+}
+.Doubt-divider {
+    width: 100%;
+    height: 1px; /* Adjust the thickness of the line as needed */
+    background-color: black;
+    margin: 10px 0; /* Adjust the margin spacing as needed */
+  }
+  
+  .fixed-button {
+    position: fixed;
+    bottom: 6rem;
+    right: 20px;
+    background-color: var(--dark); /* WhatsApp green color */
+    color: white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+@media (max-width: 900px) {
+    .main-bar {
+      width: 100%;
+    }
+  }
